@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <title>Nous arrivons bientôt</title>
     <meta charset="UTF-8">
@@ -21,15 +21,17 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('countdown/css/util.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('countdown/css/main.css') }}">
     <!--===============================================================================================-->
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
 
 
-<div class="bg-img1 size1 overlay1 p-b-35 p-l-15 p-r-15" style="background-image: url('images/bg01.jpg');">
+<div class="bg-img1 size1 overlay1 p-b-35 p-l-15 p-r-15" style="background-image: url('countdown/images/bg01.jpg');">
     <div class="flex-col-c p-t-160 p-b-215 respon1">
         <div class="wrappic1">
             <a href="#">
-                <img src="{{ asset('countdown/images/icons/logo.png') }}" alt="IMG">
+                <img src="{{ asset('logo/white-full.png') }}" width="150" alt="IMG">
             </a>
         </div>
 
@@ -43,7 +45,7 @@
 
     <!--  -->
     <div class="flex-w flex-c-m p-b-35">
-        <a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+        <a href="https://www.facebook.com/gesflow242" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
             <i class="fa fa-facebook"></i>
         </a>
 
@@ -51,8 +53,8 @@
             <i class="fa fa-twitter"></i>
         </a>
 
-        <a href="#" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
-            <i class="fa fa-youtube-play"></i>
+        <a href="https://www.linkedin.com/company/ges-flow/" class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-5">
+            <i class="fa fa-linkedin"></i>
         </a>
     </div>
 </div>
@@ -76,12 +78,12 @@
         /*Set Endtime here*/
         /*Endtime must be > current time*/
         endtimeYear: 2023,
-        endtimeMonth: 2,
-        endtimeDate: 7,
+        endtimeMonth: 3,
+        endtimeDate: 13,
         endtimeHours: 12,
         endtimeMinutes: 0,
         endtimeSeconds: 0,
-        timeZone: ""
+        timeZone: "",
         // ex:  timeZone: "America/New_York"
         //go to " http://momentjs.com/timezone/ " to get timezone
     });

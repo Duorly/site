@@ -329,8 +329,8 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
-                    <h1>Profect App For Boost Your Business</h1>
-                    <div class="text">The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling.</div>
+                    <h1>Optimiser les process de votre entreprise</h1>
+                    <div class="text">Optimiser vos process grace à notre expertise en communication digitale.</div>
                     <div class="btn-box"><a href="#">Get App Now</a></div>
                 </div>
             </div>

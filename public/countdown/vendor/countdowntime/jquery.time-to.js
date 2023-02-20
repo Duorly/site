@@ -35,7 +35,7 @@
         displayHours: true,      // display hours
         fontFamily: 'Verdana, sans-serif',
         fontSize: 0,             // font-size of a digit by pixels (0 - use CSS instead)
-        lang: 'en',              // language of caption
+        lang: 'fr',              // language of caption
         languages: {},           // extra or overridden languages
         seconds: 0,              // timer's countdown value in seconds
         start: true,             // true to start timer immediately
